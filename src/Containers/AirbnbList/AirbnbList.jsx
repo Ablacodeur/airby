@@ -1,31 +1,17 @@
-import React, { useEffect, useState } from 'react'
-import { DataAPI } from '../../api/data-api';
 import { Box, Container, Grid } from '@mui/material';
-import CardSchema from '../CardSchema/CardSchema.jsx';
-import FilterContent from '../FilterContent/FilterContent.jsx';
+import CardSchema from '../../components/CardSchema/CardSchema';
+import FilterContent from '../../components/FilterContent/FilterContent.jsx';
+import { useSelector } from 'react-redux';
 
 export default function AirbnbList() {
-    const  [data,setData]=useState([]);
+    const data = useSelector((store)=>store.AIRBNB.airbnbList);
 
-    async function fecthproperties(){
-        try{
-            const properties = await DataAPI.fetchAll();
-            setData(properties);
-            }
-            catch (error) {
-                console.error('Error fetching data:', error);
-            }
-    }
-
-    useEffect(()=>{
-        fecthproperties();
-    },[])
   return (
     <Box sx={{ 
-        backgroundColor:'black.main'
+        backgroundColor:'black.main',
      }}>
      <FilterContent />
-    <Container >
+    <Container>
         <Grid container spacing={{ xs: 2, md: 6 }} >
         {data.map((property,index) => (
             <Grid item xs={12} sm={6} lg={4} key={index} sx={{ 

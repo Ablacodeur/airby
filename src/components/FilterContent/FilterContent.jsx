@@ -9,7 +9,7 @@ export default function FilterContent() {
   return (
     <Box sx={{ 
         position:'absolute',
-        top:{xs:'25vh',md:'35vh', lg:'30%',sm:'25vh'},
+        top:{xs:'25vh',md:'35vh', lg:'25%',sm:'25vh'},
         width: "100vw",
 
         

@@ -1,0 +1,52 @@
+{
+  "comments": [
+    {
+      "name": "Emily Johnson",
+      "comment": "Had an amazing time at the cozy Airbnb in Paris! Such a beautiful city.",
+      "id": "0de8"
+    },
+    {
+      "name": "Alex Chen",
+      "comment": "The Airbnb in Rome was perfect for exploring the historic sites. Loved it!",
+      "id": "2831"
+    },
+    {
+      "name": "Sarah Lee",
+      "comment": "Stayed at a lovely Airbnb in Barcelona with a great view of the beach. Unforgettable!",
+      "id": "905f"
+    },
+    {
+      "name": "David Smith",
+      "comment": "The Airbnb in Tokyo was incredible. So modern and comfortable.",
+      "id": "cc82"
+    },
+    {
+      "name": "Lisa Rodriguez",
+      "comment": "The Airbnb in London was charming and centrally located. Would stay again!",
+      "id": "7154"
+    },
+    {
+      "name": "Michael Wang",
+      "comment": "Spent a weekend at an Airbnb in New York City. The skyline view was breathtaking!",
+      "id": "3d76"
+    },
+    {
+      "id": "8f59",
+      "username": "caca boudin",
+      "comment": "yessss",
+      "created_at": "09/04/2024"
+    },
+    {
+      "id": "d816",
+      "name": "",
+      "comment": "",
+      "created_at": "11/04/2024"
+    },
+    {
+      "id": "fff2",
+      "name": "hh",
+      "comment": "uuu",
+      "created_at": "11/04/2024"
+    }
+  ]
+}
